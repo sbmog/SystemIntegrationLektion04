@@ -5,4 +5,6 @@
   <Project Path="examples/Replier/Server.csproj" />
   <Project Path="examples/Requestor/Client.csproj" />
   <Project Path="opg1/opg1.csproj" Id="164887bc-b578-4b2e-ad54-dc346d807cc4" />
+  <Project Path="TaxiApi/TaxiApi.csproj" />
+  <Project Path="TaxiApp/TaxiApp.csproj" Id="793edd9d-0fb9-41d2-85e6-4318b58ee51e" />
 </Solution>

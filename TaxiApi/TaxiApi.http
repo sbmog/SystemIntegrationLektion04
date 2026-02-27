@@ -3,4 +3,12 @@
 GET {{TaxiApi_HostAddress}}/weatherforecast/
 Accept: application/json
 
-###
+### Send taxa bestilling
+POST {{TaxiApi_HostAddress}}/api/taxi/order
+Content-Type: application/json
+
+{
+  "customerName": "Mads Jensen",
+  "pickupAddress": "Sønderhøj 30",
+  "destination": "Aarhus H"
+}
